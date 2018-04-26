@@ -1,0 +1,47 @@
+img.logo
+{
+	background-image : url(logo.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 312px;
+	top : 1px;
+	width : 85px;
+	height : 119px;
+    z-index: 10;
+}
+
+img.pink
+{
+	background : #E8769C;
+	background : rgba(232, 118, 156, 1);
+	position : absolute ;
+	left : 0px;
+	top : 36px;
+	width : 712px;
+	height : 49px;
+    z-index: 9;
+}
+
+img.veil
+{
+	background : #B99AC8;
+	background : rgba(185, 154, 200, 1);
+	opacity : 0.65;
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 712px;
+	height : 120px;
+	filter: alpha(opacity=65) progid:DXImageTransform.Microsoft.Alpha(opacity=65) ;
+    z-index: 8;
+}
+
+img.stripes
+{
+    position : absolute ;
+	left : -4px;
+	top : -116px;
+	width : 712px;
+	height : 235px;
+    z-index: 7;
+}
