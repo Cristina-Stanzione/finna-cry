@@ -45,3 +45,112 @@ img.stripes
 	height : 235px;
     z-index: 7;
 }
+h1.education
+{
+	font-family : Courier New;
+	font-size : 34px;
+	color : #E8769C;
+	color : rgb(232, 118, 156);
+	text-decoration : underline;
+    font-weight: 200;
+    position : absolute ;
+	left : 0px;
+	top : 96px;
+	width : 307px;
+	height : 34px;
+    text-align: center;
+    background-color: #613581;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+h1.skills
+{
+	font-family : Courier New;
+	font-size : 34px;
+	color : #E8769C;
+	color : rgb(232, 118, 156);
+	text-decoration : underline;
+    position : absolute ;
+	left : 403px;
+	top : 96px;
+	width : 308px;
+	height : 34px;
+    text-align: center;
+    background-color: #613581;
+    padding: 2px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+h1.info
+{
+	font-family : Courier New;
+	font-size : 34px;
+	color : #E8769C;
+	color : rgb(232, 118, 156);
+	text-decoration : underline;
+    position : absolute ;
+	left : 0px;
+	top : 243px;
+	width : 203px;
+	height : 34px;
+    text-align: center;
+    background-color: #613581;
+    padding: 2px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+h1.profile
+{
+	font-family : Courier New;
+	font-size : 34px;
+	color : #E8769C;
+	color : rgb(232, 118, 156);
+	text-decoration : underline;
+    position : absolute ;
+	left : 505px;
+	top : 243px;
+	width : 203px;
+	height : 34px;
+    text-align: center;
+    background-color: #613581;
+    padding: 2px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+p.p1
+{
+    position : absolute ;
+	left : 0px;
+	top : 141px;
+	width : 307px;
+	height : 34px;
+    text-align: center;
+    background-color: #B99AC8;
+    padding: 2px;
+    font-size: 19px;
+    padding-top: 6px;
+}
+p.p2
+{
+    position : absolute ;
+	left : 0px;
+	top : 183px;
+	width : 307px;
+	height : 34px;
+    text-align: center;
+    background-color: #B99AC8;
+    padding: 2px;
+    font-size: 19px;
+    padding-bottom: 28px;
+}
+ul.sicc
+{
+    position : absolute ;
+	left : 403px;
+	top : 160px;
+	width : 308px;
+	height : 34px;
+    text-align: center;
+    background-color: #B99AC8;
+
+}
