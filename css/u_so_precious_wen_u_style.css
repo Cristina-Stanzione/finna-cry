@@ -1,9 +1,23 @@
+body{
+    margin: 0px;
+}
+
+#body-container
+{
+    border: 6px solid orange;
+    height: 700px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
 img.logo
 {
 	background-image : url(logo.png);
 	background-repeat : no-repeat;
 	position : absolute ;
-	left : 312px;
+	left : 450px;
 	top : 1px;
 	width : 85px;
 	height : 119px;
@@ -17,7 +31,7 @@ img.pink
 	position : absolute ;
 	left : 0px;
 	top : 36px;
-	width : 712px;
+	width : 1000px;
 	height : 49px;
     z-index: 9;
 }
@@ -30,7 +44,7 @@ img.veil
 	position : absolute ;
 	left : 0px;
 	top : 0px;
-	width : 712px;
+	width : 1000px;
 	height : 120px;
 	filter: alpha(opacity=65) progid:DXImageTransform.Microsoft.Alpha(opacity=65) ;
     z-index: 8;
@@ -39,7 +53,7 @@ img.veil
 img.stripes
 {
     position : absolute ;
-	left : -4px;
+	left : 127px;
 	top : -116px;
 	width : 712px;
 	height : 235px;
@@ -71,7 +85,7 @@ h1.skills
 	color : rgb(232, 118, 156);
 	text-decoration : underline;
     position : absolute ;
-	left : 403px;
+	left : 688px;
 	top : 96px;
 	width : 308px;
 	height : 34px;
@@ -107,7 +121,7 @@ h1.profile
 	color : rgb(232, 118, 156);
 	text-decoration : underline;
     position : absolute ;
-	left : 505px;
+	left : 793px;
 	top : 243px;
 	width : 203px;
 	height : 34px;
@@ -129,28 +143,75 @@ p.p1
     padding: 2px;
     font-size: 19px;
     padding-top: 6px;
+    padding-bottom: 12px;
+    font-family : Courier New;
+    color: #613581;
+    font-weight: 600;
 }
 p.p2
 {
     position : absolute ;
 	left : 0px;
-	top : 183px;
+	top : 191px;
 	width : 307px;
 	height : 34px;
     text-align: center;
     background-color: #B99AC8;
     padding: 2px;
     font-size: 19px;
-    padding-bottom: 28px;
+    padding-bottom: 20px;
+    font-family : Courier New;
+    color: #613581;
+    font-weight: 600;
 }
 ul.sicc
 {
     position : absolute ;
 	left : 403px;
-	top : 160px;
+	top : 144px;
 	width : 308px;
 	height : 34px;
     text-align: center;
     background-color: #B99AC8;
+    padding-bottom: 66px;
+    padding-top: 7px;
+    font-family : Courier New;
+    color: #613581;
+    font-weight: 600;
+}
 
+p.help
+{
+    position : absolute ;
+	left : 0px;
+	top : 290px;
+	width : 203px;
+	height : 34px;
+    text-align: center;
+    background-color: #B99AC8;
+    padding: 2px;
+    padding-bottom: 27px;
+    padding-top: 7px;
+    font-family : Courier New;
+    color: #613581;
+    font-weight: 600;
+}
+
+ul.qualities
+{
+    position : absolute ;
+	left : 505px;
+	top : 290px;
+	width : 203px;
+	height : 34px;
+    text-align: center;
+    background-color: #B99AC8;
+    padding: 2px;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 24px;
+    padding-bottom: 27px;
+    font-family : Courier New;
+    color: #613581;
+    font-weight: 600;
 }
