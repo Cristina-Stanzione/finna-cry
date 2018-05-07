@@ -4,12 +4,12 @@ body{
 
 #body-container
 {
-    border: 6px solid orange;
     height: 700px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+    border: 1px solid white;
 }
 
 img.logo
